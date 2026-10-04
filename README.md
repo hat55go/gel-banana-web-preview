@@ -7,4 +7,7 @@
 - 検索エンジンには登録しない設定です。
 - 元のNext.jsソースとGit履歴は、この公開用repositoryには含めません。
 
-公開URL（準備中）: https://hat55go.github.io/gel-banana-web-preview/
+閲覧URL: https://hat55go.github.io/gel-banana-web-preview/
+
+GitHub Pagesが配信するため、開発用Macの電源やネットワークに依存せず閲覧できます。
+更新履歴は `feature/publish-preview` branchとPRに残します。
