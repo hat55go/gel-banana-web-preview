@@ -1,0 +1,7 @@
+body { margin: 0; background: #e8ebe3; font-family: "Hiragino Sans", sans-serif; color: #1a1a1a; }
+nav { padding: 14px 20px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 16px; font-size: 12px; }
+nav a, nav button { color: inherit; padding: 12px; min-height: 44px; font: inherit; border: 1px solid #aaa; background: white; cursor: pointer; box-sizing: border-box; }
+nav a { display: inline-flex; align-items: center; text-decoration: none; }
+nav button[aria-pressed="true"] { background: #1a1a1a; border-color: #1a1a1a; color: white; }
+nav a:focus-visible, nav button:focus-visible { outline: 3px solid #2265c8; outline-offset: 3px; }
+iframe { display: block; margin: 0 auto 30px; border: 1px solid #c4c8bc; background: white; }
