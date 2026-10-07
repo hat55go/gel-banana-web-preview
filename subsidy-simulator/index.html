@@ -1,0 +1,1987 @@
+<!doctype html>
+<html lang="ja">
+<head><meta name="robots" content="noindex,nofollow,noarchive">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&family=Shippori+Mincho:wght@500;600;700&display=swap" rel="stylesheet">
+  <title>伴走型DX・AI支援／研修・顧問・補助金活用｜北近畿・全国対応｜合同会社Gel-banana</title>
+  <meta name="description" content="研修・役員勉強会・DX顧問など伴走型のAI/DX支援。使える補助金と実質負担額をその場で概算診断。京都府福知山市の合同会社Gel-bananaが、北近畿(福知山・舞鶴・綾部・丹波・豊岡)から全国の中小企業・自治体のDXに伴走します。">
+  <meta name="keywords" content="DX支援,AI研修,DX顧問,補助金 活用,DX 北近畿,福知山 AI,自治体DX,中小企業DX,伴走支援,IT導入補助金,小規模事業者持続化補助金,役員勉強会">
+  <link rel="canonical" href="https://hat55go.github.io/gel-banana-web-preview/subsidy-simulator">
+  
+  <meta name="author" content="合同会社Gel-banana">
+  <meta name="geo.region" content="JP-26">
+  <meta name="geo.placename" content="京都府福知山市">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="合同会社Gel-banana">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:url" content="https://hat55go.github.io/gel-banana-web-preview/subsidy-simulator">
+  <meta property="og:title" content="伴走型DX・AI支援／研修・顧問・補助金活用｜北近畿・全国対応｜合同会社Gel-banana">
+  <meta property="og:description" content="研修・役員勉強会・DX顧問など伴走型のAI/DX支援。使える補助金と実質負担額をその場で概算診断。北近畿〜全国対応。">
+  <meta property="og:image" content="https://hat55go.github.io/gel-banana-web-preview/subsidy-simulator/training-hero-photo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="伴走型DX・AI支援／研修・顧問・補助金活用｜合同会社Gel-banana">
+  <meta name="twitter:description" content="伴走型のAI/DX支援と使える補助金を概算診断。北近畿〜全国対応。">
+  <meta name="twitter:image" content="https://hat55go.github.io/gel-banana-web-preview/subsidy-simulator/training-hero-photo.png">
+
+  <!-- 構造化データ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "serviceType": "伴走型DX・AI支援(研修・顧問・補助金活用)",
+        "name": "伴走型DX・AI支援",
+        "description": "研修・役員勉強会・DX顧問など、中小企業・自治体のDXに伴走する支援サービス。使える補助金と実質負担額を概算診断します。",
+        "url": "https://hat55go.github.io/gel-banana-web-preview/subsidy-simulator",
+        "provider": {
+          "@type": "Organization",
+          "name": "合同会社Gel-banana",
+          "url": "https://hat55go.github.io/gel-banana-web-preview",
+          "logo": "https://hat55go.github.io/gel-banana-web-preview/media/brand/gb-logo-mark.png",
+          "telephone": "+81-90-5157-0165",
+          "email": "info@gel-banana.jp",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "下新10",
+            "addressLocality": "福知山市",
+            "addressRegion": "京都府",
+            "postalCode": "620-0029",
+            "addressCountry": "JP"
+          }
+        },
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "北近畿(福知山・舞鶴・綾部・丹波・豊岡)" },
+          { "@type": "Country", "name": "日本" }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://hat55go.github.io/gel-banana-web-preview" },
+          { "@type": "ListItem", "position": 2, "name": "DX支援", "item": "https://hat55go.github.io/gel-banana-web-preview/services/dx" },
+          { "@type": "ListItem", "position": 3, "name": "伴走型DX支援・補助金診断", "item": "https://hat55go.github.io/gel-banana-web-preview/subsidy-simulator" }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --ink: #1A1A1A;
+      --muted: #6B6B6B;
+      --paper: #FAF6EE;
+      --paper-2: #F4ECDC;
+      --line: #E8E4DA;
+      --yellow: #F2C744;
+      --yellow-2: #FFE07A;
+      --green: #1f7a50;
+      --green-bg: #e7f3ec;
+      --blue: #245f9e;
+      --blue-bg: #e7eff8;
+      --red: #a13a31;
+      --red-bg: #fae8e5;
+      --white: #fff;
+      --shadow: 0 18px 60px rgba(22, 22, 22, .12);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; overflow-x: hidden; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+      line-height: 1.7;
+      letter-spacing: 0;
+      overflow-x: hidden;
+    }
+    a { color: inherit; }
+    button, input { font: inherit; }
+    .wrap { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(255, 250, 240, .92);
+      border-bottom: 1px solid rgba(222, 210, 185, .78);
+      backdrop-filter: blur(14px);
+    }
+    .nav {
+      height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; }
+    .brand-logo {
+      width: 42px;
+      height: 42px;
+      display: inline-grid;
+      place-items: center;
+      flex: 0 0 auto;
+    }
+    .brand-logo img {
+      width: 42px;
+      height: 42px;
+      object-fit: contain;
+      display: block;
+    }
+    .mark {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: var(--yellow);
+      border: 2px solid var(--ink);
+      position: relative;
+      box-shadow: 4px 4px 0 var(--ink);
+      flex: 0 0 auto;
+    }
+    .mark:before,
+    .mark:after {
+      content: "";
+      position: absolute;
+      top: 12px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--ink);
+    }
+    .mark:before { left: 10px; }
+    .mark:after { right: 10px; }
+    .mark span {
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      bottom: 9px;
+      height: 7px;
+      border: 2px solid var(--ink);
+      border-top: 0;
+      border-radius: 0 0 14px 14px;
+    }
+    .nav-links { display: flex; align-items: center; gap: 18px; color: var(--muted); font-size: 14px; }
+    .nav-links a { text-decoration: none; }
+    .nav-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      padding: 0 16px;
+      border-radius: 999px;
+      color: var(--white);
+      background: var(--ink);
+      font-weight: 700;
+    }
+
+    .hero {
+      padding: 72px 0 42px;
+      border-bottom: 1px solid var(--line);
+      background:
+        linear-gradient(90deg, rgba(244,188,54,.15), transparent 32%),
+        radial-gradient(circle at 80% 12%, rgba(244,188,54,.28), transparent 30%),
+        var(--paper);
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(320px, .62fr);
+      gap: 38px;
+      align-items: center;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,.55);
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+    h1 {
+      margin: 18px 0 18px;
+      font-size: clamp(34px, 4.25vw, 58px);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+    h1 .line {
+      display: block;
+      white-space: nowrap;
+    }
+    .keep {
+      display: inline-block;
+      white-space: nowrap;
+    }
+    .keep + .keep {
+      margin-left: .12em;
+    }
+    .highlight {
+      display: inline;
+      background: linear-gradient(transparent 62%, var(--yellow) 0);
+      padding: 0 .04em;
+    }
+    .lead {
+      margin: 0;
+      max-width: 720px;
+      color: #403c35;
+      font-size: clamp(16px, 2vw, 20px);
+      font-weight: 500;
+    }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 20px;
+      border-radius: 999px;
+      border: 2px solid var(--ink);
+      background: var(--yellow);
+      color: var(--ink);
+      text-decoration: none;
+      font-weight: 800;
+      box-shadow: 4px 4px 0 var(--ink);
+    }
+    .button.secondary { background: var(--white); box-shadow: none; }
+    .hero-visual {
+      min-height: 360px;
+      border: 2px solid var(--ink);
+      border-radius: 28px;
+      background: var(--white);
+      box-shadow: 10px 10px 0 var(--ink);
+      padding: 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-visual:before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      background: linear-gradient(180deg, transparent 44%, rgba(22,22,22,.72));
+      pointer-events: none;
+    }
+    .hero-visual img {
+      width: 100%;
+      height: 100%;
+      min-height: 360px;
+      object-fit: cover;
+      display: block;
+    }
+    .visual-panel {
+      position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: 18px;
+      z-index: 2;
+      color: var(--white);
+    }
+    .visual-panel small {
+      color: rgba(255,255,255,.76);
+      font-weight: 900;
+      display: block;
+      margin-bottom: 6px;
+    }
+    .visual-panel strong {
+      display: block;
+      font-size: 28px;
+      line-height: 1.1;
+    }
+    .visual-panel span {
+      display: block;
+      margin-top: 6px;
+      color: rgba(255,255,255,.82);
+      font-weight: 900;
+      font-size: 13px;
+    }
+    .proof-card {
+      background: var(--ink);
+      color: var(--white);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: var(--shadow);
+    }
+    .proof-card h2 { margin: 0 0 18px; font-size: 20px; }
+    .proof-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      padding: 14px 0;
+      border-top: 1px solid rgba(255,255,255,.14);
+    }
+    .proof-row small { color: rgba(255,255,255,.65); }
+    .proof-row strong { color: var(--yellow); font-size: 20px; white-space: nowrap; }
+    .proof-note { margin: 16px 0 0; color: rgba(255,255,255,.72); font-size: 13px; }
+
+    section { padding: 58px 0; }
+    .section-head { margin-bottom: 22px; }
+    .section-head h2 {
+      margin: 0;
+      font-size: clamp(26px, 3.4vw, 42px);
+      line-height: 1.18;
+      text-wrap: balance;
+    }
+    .section-head p { margin: 10px 0 0; color: var(--muted); }
+
+    .estimator {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(340px, 430px);
+      gap: 22px;
+      align-items: start;
+    }
+    .panel {
+      background: rgba(255,255,255,.72);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: 0 8px 30px rgba(22,22,22,.06);
+    }
+    .steps { padding: 22px; }
+    .step {
+      padding: 22px 0;
+      border-top: 1px solid var(--line);
+    }
+    .step:first-child { border-top: 0; padding-top: 0; }
+    .step-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    .step-number {
+      width: 30px;
+      height: 30px;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--yellow);
+      border: 2px solid var(--ink);
+      font-weight: 900;
+      line-height: 1;
+    }
+    .step-title h3 { margin: 0; min-width: 0; font-size: 18px; }
+    .subtext { margin: -8px 0 14px 40px; color: var(--muted); font-size: 13px; }
+    .option-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .option-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .option {
+      width: 100%;
+      min-height: 88px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--white);
+      color: var(--ink);
+      text-align: left;
+      cursor: pointer;
+    }
+    .option:hover { border-color: var(--ink); }
+    .option[aria-pressed="true"] {
+      background: var(--yellow);
+      border: 2px solid var(--ink);
+      box-shadow: 3px 3px 0 var(--ink);
+    }
+    .option b { display: block; font-size: 15px; line-height: 1.35; }
+    .option span { display: block; color: var(--muted); font-size: 12px; margin-top: 6px; }
+    .option[aria-pressed="true"] span { color: #453812; }
+
+    .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .field label { font-size: 13px; font-weight: 800; color: var(--muted); }
+    .field input, .field select {
+      width: 100%;
+      min-height: 46px;
+      padding: 0 12px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: var(--white);
+      color: var(--ink);
+    }
+    .checks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .check {
+      display: flex;
+      align-items: flex-start;
+      gap: 9px;
+      min-height: 46px;
+      padding: 12px;
+      border-radius: 12px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .check input { margin-top: 4px; accent-color: var(--yellow); }
+    .simulate-bar {
+      margin-top: 22px;
+      padding: 18px;
+      border-radius: 16px;
+      background: var(--ink);
+      color: var(--white);
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 16px;
+      align-items: center;
+    }
+    .simulate-bar p {
+      margin: 0;
+      color: rgba(255,255,255,.72);
+      font-size: 13px;
+    }
+    .simulate-button {
+      min-height: 52px;
+      padding: 0 22px;
+      border: 2px solid var(--yellow);
+      border-radius: 999px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-weight: 900;
+      cursor: pointer;
+      box-shadow: 4px 4px 0 rgba(255,255,255,.2);
+      white-space: nowrap;
+    }
+    .simulate-button:hover { background: var(--yellow-2); }
+    .dirty-note {
+      margin-top: 10px;
+      min-height: 20px;
+      color: var(--yellow-2);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .result {
+      position: sticky;
+      top: 88px;
+      overflow: hidden;
+    }
+    .result.is-updated {
+      animation: resultFlash .72s ease;
+    }
+    @keyframes resultFlash {
+      0% { box-shadow: 0 0 0 0 rgba(244, 188, 54, .72), var(--shadow); }
+      100% { box-shadow: 0 0 0 18px rgba(244, 188, 54, 0), var(--shadow); }
+    }
+    .result-top {
+      padding: 24px;
+      background: var(--ink);
+      color: var(--white);
+    }
+    .result-top .label {
+      color: var(--yellow);
+      font-weight: 900;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+    .result h3 {
+      margin: 8px 0 4px;
+      font-size: 26px;
+      line-height: 1.25;
+    }
+    .result .desc { margin: 0; color: rgba(255,255,255,.7); font-size: 13px; }
+    .price-stack { padding: 20px 24px 24px; background: var(--white); }
+    .price-hero {
+      padding: 18px;
+      border: 2px solid var(--ink);
+      border-radius: 18px;
+      background: var(--yellow);
+      margin-bottom: 14px;
+      box-shadow: 4px 4px 0 var(--ink);
+    }
+    .price-hero small {
+      display: block;
+      font-size: 12px;
+      font-weight: 900;
+      color: #574411;
+    }
+    .price-hero strong {
+      display: block;
+      margin-top: 4px;
+      font-size: clamp(34px, 4vw, 54px);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+    .breakdown {
+      display: grid;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .breakdown-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      align-items: center;
+      padding: 11px 12px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--paper);
+      font-size: 14px;
+    }
+    .breakdown-row span { color: var(--muted); font-weight: 800; }
+    .breakdown-row strong { font-size: 16px; }
+    .breakdown-row.discount strong { color: var(--green); }
+    .grant-list { display: grid; gap: 10px; }
+    .grant {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 13px;
+      background: var(--paper);
+    }
+    .grant-head {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: flex-start;
+    }
+    .grant-label {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 900;
+      margin-bottom: 3px;
+    }
+    .grant b { display: block; line-height: 1.35; overflow-wrap: anywhere; }
+    .pill {
+      display: inline-flex;
+      min-width: max-content;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: var(--green-bg);
+      color: var(--green);
+      font-weight: 900;
+      font-size: 12px;
+    }
+    .grant p { margin: 8px 0 0; color: var(--muted); font-size: 12px; }
+    .grant-link {
+      display: inline-flex;
+      margin-top: 10px;
+      color: var(--blue);
+      font-size: 12px;
+      font-weight: 900;
+      text-decoration: none;
+      border-bottom: 1px solid currentColor;
+    }
+    .result-actions {
+      display: grid;
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .result-actions a {
+      min-height: 46px;
+      display: grid;
+      place-items: center;
+      text-decoration: none;
+      border-radius: 999px;
+      font-weight: 900;
+    }
+    .primary-link { background: var(--ink); color: var(--white); }
+    .line-link { border: 1px solid var(--line); color: var(--ink); background: var(--white); }
+    .copy-note {
+      display: none;
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 900;
+      text-align: center;
+    }
+    .copy-note.show { display: block; }
+    .notice {
+      margin-top: 14px;
+      padding: 12px;
+      border-radius: 12px;
+      background: var(--red-bg);
+      color: var(--red);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .examples {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .example {
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+    }
+    .case-card {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: 12px;
+      min-height: 100%;
+    }
+    .case-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .case-badge {
+      display: inline-flex;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: var(--blue-bg);
+      color: var(--blue);
+      font-size: 11px;
+      font-weight: 900;
+    }
+    .case-badge.progress {
+      background: var(--green-bg);
+      color: var(--green);
+    }
+    .case-image {
+      min-height: 130px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(135deg, rgba(244,188,54,.28), transparent 46%),
+        var(--paper);
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+    .case-image img {
+      width: 100%;
+      height: 100%;
+      min-height: 170px;
+      object-fit: cover;
+      display: block;
+    }
+    .case-illustration {
+      width: 86%;
+      min-height: 92px;
+      border: 2px solid var(--ink);
+      border-radius: 16px;
+      background: var(--white);
+      box-shadow: 5px 5px 0 rgba(22,22,22,.18);
+      padding: 12px;
+      display: grid;
+      gap: 8px;
+    }
+    .case-line {
+      height: 10px;
+      border-radius: 999px;
+      background: var(--line);
+    }
+    .case-line.short { width: 62%; }
+    .case-line.yellow { background: var(--yellow); }
+    .case-offline {
+      width: 120px;
+      height: 92px;
+      border: 2px solid var(--ink);
+      border-radius: 18px;
+      background: var(--ink);
+      position: relative;
+      box-shadow: 5px 5px 0 rgba(22,22,22,.18);
+    }
+    .case-offline:before {
+      content: "";
+      position: absolute;
+      left: 18px;
+      right: 18px;
+      top: 20px;
+      height: 30px;
+      border-radius: 10px;
+      border: 2px solid var(--yellow);
+    }
+    .case-offline:after {
+      content: "LOCAL";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 15px;
+      text-align: center;
+      color: var(--yellow);
+      font-size: 12px;
+      font-weight: 900;
+    }
+    .example h3 { margin: 0 0 10px; font-size: 18px; }
+    .case-summary {
+      margin-top: 14px;
+      display: grid;
+      gap: 8px;
+    }
+    .case-summary-row {
+      display: grid;
+      grid-template-columns: 76px minmax(0, 1fr);
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 12px;
+      background: rgba(245, 237, 219, .62);
+      font-size: 13px;
+    }
+    .case-summary-row b {
+      color: var(--ink);
+      font-size: 12px;
+    }
+    .case-summary-row span {
+      color: #403c35;
+    }
+    .before-after {
+      display: grid;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .ba {
+      display: grid;
+      grid-template-columns: 76px minmax(0, 1fr);
+      gap: 10px;
+      align-items: baseline;
+      padding: 12px;
+      border-radius: 12px;
+      background: var(--paper);
+      font-size: 13px;
+    }
+    .ba b {
+      color: var(--ink);
+      font-size: 12px;
+    }
+    .ba span {
+      color: #403c35;
+    }
+
+    .service-icon {
+      width: 46px;
+      height: 46px;
+      border: 2px solid var(--ink);
+      border-radius: 14px;
+      background: var(--yellow-2);
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      box-shadow: 3px 3px 0 var(--ink);
+    }
+    .service-icon svg {
+      width: 25px;
+      height: 25px;
+      stroke: var(--ink);
+      stroke-width: 2.2;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .service-details {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .service-detail {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--white);
+      padding: 20px;
+    }
+    .service-detail-head {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+    .service-detail h3 { margin: 0 0 4px; font-size: 20px; }
+    .service-price { color: var(--green); font-size: 13px; font-weight: 900; }
+    .service-detail p { margin: 0; color: var(--muted); font-size: 14px; }
+    .service-detail ul {
+      margin: 14px 0 0;
+      padding-left: 18px;
+      color: #403c35;
+      font-size: 13px;
+    }
+    .service-detail li + li { margin-top: 6px; }
+
+    .contact {
+      background: var(--white);
+      color: var(--ink);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: clamp(22px, 3vw, 34px);
+      display: grid;
+      grid-template-columns: minmax(0, .95fr) minmax(320px, 420px);
+      gap: clamp(22px, 4vw, 48px);
+      align-items: center;
+      max-width: 980px;
+      margin: 0 auto;
+    }
+    .contact h2 { margin: 0 0 8px; font-size: clamp(26px, 3vw, 40px); }
+    .contact p { margin: 0; max-width: 520px; color: var(--muted); }
+    .contact-card {
+      width: 100%;
+      padding: 18px;
+      border-radius: 18px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      font-size: 14px;
+      display: grid;
+      gap: 12px;
+    }
+    .contact-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      font-weight: 900;
+    }
+    .contact-brand img {
+      width: 38px;
+      height: 38px;
+      object-fit: contain;
+      display: block;
+    }
+    .contact-card a { color: var(--blue); text-decoration: none; font-weight: 800; }
+    .line-button {
+      display: inline-flex;
+      min-height: 48px;
+      align-items: center;
+      justify-content: center;
+      padding: 0 14px;
+      border-radius: 999px;
+      background: var(--green);
+      color: var(--white) !important;
+      font-weight: 900;
+      text-align: center;
+    }
+    .contact-links {
+      display: grid;
+      gap: 8px;
+    }
+    .contact-row {
+      display: grid;
+      grid-template-columns: 74px minmax(0, 1fr);
+      gap: 10px;
+      align-items: baseline;
+    }
+    .contact-label {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+    }
+    .contact-value {
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      padding: 28px 0 36px;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    @media (max-width: 1040px) {
+      .hero-grid,
+      .estimator,
+      .contact { grid-template-columns: 1fr; }
+      .contact {
+        max-width: 720px;
+      }
+      .contact-card {
+        max-width: 520px;
+      }
+      .result { position: static; }
+      .hero-visual { min-height: 300px; }
+      .examples { grid-template-columns: 1fr; }
+      .service-details { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .nav-links { display: none; }
+    }
+    @media (max-width: 620px) {
+      .wrap { width: min(100% - 24px, 1120px); }
+      .hero { padding-top: 42px; }
+      .hero-visual { display: none; }
+      h1 {
+        font-size: clamp(32px, 10vw, 46px);
+      }
+      h1 .line {
+        white-space: normal;
+      }
+      .grant-head { grid-template-columns: 1fr; }
+      .simulate-bar,
+      .option-grid,
+      .option-grid.three,
+      .field-row,
+      .checks,
+      .service-details { grid-template-columns: 1fr; }
+      .steps { padding: 16px; }
+      .result-top, .price-stack { padding: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="https://hat55go.github.io/gel-banana-web-preview" aria-label="合同会社Gel-banana ホームへ" style="text-decoration:none;color:inherit;">
+        <div class="brand-logo" aria-hidden="true">
+          <img src="/gel-banana-web-preview/subsidy-simulator/assets/gb-logo.png" alt="">
+        </div>
+        <div>合同会社 Gel-banana</div>
+      </a>
+      <nav class="nav-links" aria-label="ページ内ナビゲーション">
+        <a href="https://hat55go.github.io/gel-banana-web-preview">ホーム</a>
+        <a href="#estimate">概算診断</a>
+        <a href="#examples">具体例</a>
+        <a href="#services">伴走支援</a>
+        <a href="/gel-banana-web-preview/saas-development">受託開発</a>
+        <a class="nav-cta" href="#contact">相談する</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">福知山発 / AI研修・DX顧問・補助金活用</div>
+          <h1><span class="line">御社にピッタリの<span class="keep">DXを</span></span><span class="line"><span class="highlight keep">1分間で診断</span>いたします。</span></h1>
+          <p class="lead">
+            業種、困っている作業、導入したい人数を選ぶだけ。
+            御社に合いそうな研修・役員勉強会・DX顧問プランと、使える可能性のある助成金、概算の実質負担額を確認できます。
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#estimate">診断をはじめる</a>
+            <a class="button secondary" href="#examples">導入例を見る</a>
+          </div>
+        </div>
+        <aside class="hero-visual" aria-label="AI研修・伴走支援のイメージ">
+          <img src="/gel-banana-web-preview/subsidy-simulator/training-hero-photo.png" alt="ノートPCを見ながらDX導入について相談する事業者と支援者">
+          <div class="visual-panel">
+            <small>伴走型DX支援シミュレーター</small>
+            <strong>課題整理から定着まで伴走</strong>
+            <span>ヒアリング / DX顧問 / 補助金活用</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="estimate">
+      <div class="wrap">
+        <div class="section-head">
+          <h2><span class="keep">伴走支援の</span> <span class="keep">概算診断</span></h2>
+          <p>「何を進めたいか」から選ぶと、研修・顧問・相談会プランと助成金候補を自動で組み合わせます。</p>
+        </div>
+
+        <div class="estimator">
+          <div class="panel steps">
+            <div class="step">
+              <div class="step-title">
+                <span class="step-number">1</span>
+                <h3><span class="keep">まず、何を</span> <span class="keep">改善したいですか？</span></h3>
+              </div>
+              <p class="subtext">サービス名がわからなくても大丈夫です。いちばん近い困りごとを選んでください。</p>
+              <div id="goalOptions" class="option-grid"></div>
+            </div>
+
+            <div class="step">
+              <div class="step-title">
+                <span class="step-number">2</span>
+                <h3><span class="keep">業種に近いものを</span> <span class="keep">選んでください</span></h3>
+              </div>
+              <div id="industryOptions" class="option-grid three"></div>
+            </div>
+
+            <div class="step">
+              <div class="step-title">
+                <span class="step-number">3</span>
+                <h3><span class="keep">どれくらいの規模で</span> <span class="keep">導入を考えていますか？</span></h3>
+              </div>
+              <p class="subtext">会社全体ではなく、最初に使う事業所・部署・チームの人数でOKです。</p>
+              <div class="field-row">
+                <div class="field">
+                  <label for="scope">導入範囲</label>
+                  <select id="scope"></select>
+                </div>
+                <div class="field">
+                  <label for="people">対象人数</label>
+                  <input id="people" type="number" min="1" max="500" value="8">
+                </div>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-title">
+                <span class="step-number">4</span>
+                <h3><span class="keep">助成金の判定に</span> <span class="keep">必要な条件</span></h3>
+              </div>
+              <div class="checks">
+                <label class="check"><input id="kyoto" type="checkbox" checked>京都府内の事業者</label>
+                <label class="check"><input id="fukuchiyama" type="checkbox">福知山市内の事業者</label>
+                <label class="check"><input id="employees" type="checkbox" checked>雇用している社員がいる</label>
+                <label class="check"><input id="wage" type="checkbox">賃上げ・人材育成に前向き</label>
+                <label class="check"><input id="ec" type="checkbox">EC・販路開拓も検討したい</label>
+                <label class="check"><input id="fast" type="checkbox">補助金より早く始めたい</label>
+              </div>
+            </div>
+
+            <div class="simulate-bar">
+              <div>
+                <strong>条件を選び終えたら、伴走支援の概算を試算します。</strong>
+                <p>営業・相談の場では、ここを押したタイミングで金額が出るので説明しやすくなります。</p>
+                <div class="dirty-note" id="dirtyNote">条件を選んで「この内容でシミュレーション」を押してください。</div>
+              </div>
+              <button class="simulate-button" id="simulateButton" type="button">この内容でシミュレーション</button>
+            </div>
+          </div>
+
+          <aside class="panel result" id="estimateResult" aria-live="polite">
+            <div class="result-top">
+              <div class="label">Simulation Result</div>
+              <h3 id="planName">まだ試算していません</h3>
+              <p class="desc" id="planDesc">条件を選んで「この内容でシミュレーション」を押すと、概算結果が表示されます。</p>
+            </div>
+            <div class="price-stack">
+              <div class="price-hero">
+                <small>概算の実質負担</small>
+                <strong id="netPrice">--</strong>
+              </div>
+
+              <div class="breakdown">
+                <div class="breakdown-row">
+                  <span>価格目安</span>
+                  <strong id="listPrice">--</strong>
+                </div>
+                <div class="breakdown-row">
+                  <span>想定助成率</span>
+                  <strong id="grantRate">--</strong>
+                </div>
+                <div class="breakdown-row discount">
+                  <span>想定助成額</span>
+                  <strong id="grantAmount">--</strong>
+                </div>
+              </div>
+
+              <div class="grant-list" id="grantList"></div>
+
+              <div class="result-actions">
+                <a class="primary-link" id="consultMail" href="mailto:info@gel-banana.jp?subject=DX導入費用シミュレーターの相談">この内容で無料相談（フォーム）</a>
+                <a class="line-link" href="https://lin.ee/xHy6wmt">LINEで相談する</a>
+                <div class="copy-note" id="copyNote">診断内容をコピーしました。メールやLINEに貼り付けできます。</div>
+              </div>
+
+              <div class="notice">
+                表示金額は税別の下限目安です。人数・実施回数・支援範囲で変動します。助成金・補助金は審査や要件確認が必要で、採択を保証するものではありません。
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="examples">
+      <div class="wrap">
+        <div class="section-head">
+          <h2><span class="keep">導入例・</span> <span class="keep">開発中の事例</span></h2>
+          <p>難しいシステムの話ではなく、現場で毎月発生している作業を減らすところから考えます。</p>
+        </div>
+        <div class="examples">
+          <article class="example case-card">
+            <div class="case-image">
+              <img src="/gel-banana-web-preview/subsidy-simulator/case-minutes-photo.png" alt="相談記録の作成に向けてヒアリングを録音しながら面談する様子">
+            </div>
+            <div>
+              <div class="case-meta">
+                <span class="case-badge progress">進行中</span>
+                <span class="case-badge">福知山商工会議所様</span>
+              </div>
+              <h3><span class="keep">議事録・</span> <span class="keep">相談カルテ作成</span></h3>
+              <p>会員事業者とのヒアリング記録を、録音から文字起こし・要約し、指定フォーマットへ自動整理するアプリケーションを開発中です。</p>
+              <div class="case-summary">
+                <div class="case-summary-row"><b>相談内容</b><span>紙の聞き取りメモや面談記録を、あとから整理・転記する負担を減らしたい。</span></div>
+                <div class="case-summary-row"><b>支援内容</b><span>録音、文字起こし、要約、相談カルテ形式への整理、検索しやすい記録化までを設計。</span></div>
+                <div class="case-summary-row"><b>活用場面</b><span>商工団体、士業、相談窓口、訪問支援など、面談記録が多い業務に横展開可能。</span></div>
+              </div>
+              <div class="before-after">
+                <div class="ba"><b>これまで</b><span>紙媒体の聞き取りメモを、担当者があとから整理・転記。</span></div>
+                <div class="ba"><b>導入後</b><span>録音ボタンを押すだけで、議事録化と相談カルテ入力までつながるフローを実現しています。</span></div>
+              </div>
+            </div>
+          </article>
+          <article class="example case-card">
+            <div class="case-image">
+              <img src="/gel-banana-web-preview/subsidy-simulator/case-offline-photo.png" alt="ローカル環境でAI基盤を検証するエンジニアの作業風景">
+            </div>
+            <div>
+              <div class="case-meta">
+                <span class="case-badge progress">進行中</span>
+                <span class="case-badge">株式会社K様</span>
+              </div>
+              <h3><span class="keep">オフラインLLM</span> <span class="keep">開発支援</span></h3>
+              <p>公共インフラなど、機密性の高い情報を扱う現場でもAIを活用できるよう、ローカル環境で完結するAI基盤を検証・開発中です。</p>
+              <div class="case-summary">
+                <div class="case-summary-row"><b>相談内容</b><span>オンラインAIに業務データを送れない環境でも、社内でAI活用を検証したい。</span></div>
+                <div class="case-summary-row"><b>支援内容</b><span>ローカル端末・社内環境で完結するLLM活用の構成検討、検証、運用方法を整理。</span></div>
+                <div class="case-summary-row"><b>活用場面</b><span>公共インフラ、機密情報、個人情報、社外送信を避けたい業務でのAI導入。</span></div>
+              </div>
+              <div class="before-after">
+                <div class="ba"><b>課題</b><span>オンラインAIに情報を送ること自体が、情報漏洩リスクになり得る。</span></div>
+                <div class="ba"><b>方針</b><span>社内・端末内で完結するLLM環境を作り、外部送信を前提にしないAI活用を進めます。</span></div>
+              </div>
+            </div>
+          </article>
+          <article class="example case-card">
+            <div class="case-image">
+              <img src="/gel-banana-web-preview/subsidy-simulator/case-order-photo.png" alt="紙の注文書や問い合わせ内容を見ながらパソコンで整理する様子">
+            </div>
+            <div>
+              <div class="case-meta">
+                <span class="case-badge">デモ例</span>
+              </div>
+              <h3><span class="keep">問い合わせ・</span> <span class="keep">メール対応の</span> <span class="keep">小規模デジタル化</span></h3>
+              <p>電話・FAX・LINE・メール等で散らばる情報を整理し、対応漏れを減らす業務改善です。</p>
+              <div class="case-summary">
+                <div class="case-summary-row"><b>相談内容</b><span>問い合わせや注文情報が複数の窓口に散らばり、対応漏れや確認の手間が発生している。</span></div>
+                <div class="case-summary-row"><b>支援内容</b><span>入力フォーム、Google Sheets、簡易DBなどを使い、まず小さく一元管理する流れを作る。</span></div>
+                <div class="case-summary-row"><b>活用場面</b><span>小売、食品、製造、観光、サービス業など、紙・電話・LINEが混在する現場。</span></div>
+              </div>
+              <div class="before-after">
+                <div class="ba"><b>今まで</b><span>担当者の頭の中や紙で管理。確認漏れや二重入力が起きる。</span></div>
+                <div class="ba"><b>導入後</b><span>情報を一か所に集約し、売れ筋・在庫・未対応をすぐ確認できます。</span></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <h2><span class="keep">伴走型支援の</span> <span class="keep">主なプラン</span></h2>
+          <p>単発の研修から月次伴走、相談ブース、導入計画づくりまで、状況に合わせて組み合わせます。</p>
+        </div>
+        <div class="service-details">
+          <article class="service-detail" id="service-training">
+            <div class="service-detail-head">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 6h16v11H4z"/><path d="M8 21h8"/><path d="M12 17v4"/><path d="M8 10h8"/><path d="M8 13h5"/></svg>
+              </div>
+              <div>
+                <h3><span class="keep">AI/DX研修</span></h3>
+                <div class="service-price">25万円〜</div>
+              </div>
+            </div>
+            <p>社員向けと管理職向けを別商品に分けず、会社の状態に合わせて研修内容を組み替えます。</p>
+            <ul>
+              <li>社員向け: ChatGPT/生成AIの基本、日常業務での使い方、社内ルール</li>
+              <li>管理職向け: AI導入の判断軸、リスク、部署単位での活用テーマ整理</li>
+              <li>研修後に「実務で何に使うか」まで落とし込むワークを実施</li>
+            </ul>
+          </article>
+          <article class="service-detail" id="service-advisor">
+            <div class="service-detail-head">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 13a8 8 0 0 1 13.5-5.8"/><path d="M17.5 7.2V4h3.2"/><path d="M20 11a8 8 0 0 1-13.5 5.8"/><path d="M6.5 16.8V20H3.3"/><path d="M9 12l2 2l4-5"/></svg>
+              </div>
+              <div>
+                <h3><span class="keep">DX顧問・</span> <span class="keep">個別伴走</span></h3>
+                <div class="service-price">月15万円〜</div>
+              </div>
+            </div>
+            <p>一度きりの研修で終わらせず、月次で業務改善テーマを整理し、社内に定着するまで伴走します。</p>
+            <ul>
+              <li>月1〜2回の定例ミーティングで、優先順位と次の一手を整理</li>
+              <li>Google Workspace、AI活用、簡易自動化、外注判断をまとめて相談可能</li>
+              <li>必要に応じて独自システム開発側へ切り分け</li>
+            </ul>
+          </article>
+          <article class="service-detail" id="service-event">
+            <div class="service-detail-head">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 5h16v10H4z"/><path d="M8 19h8"/><path d="M12 15v4"/><path d="M8 9h3"/><path d="M8 12h5"/><path d="M16 8l2 2l-2 2"/></svg>
+              </div>
+              <div>
+                <h3><span class="keep">登壇・</span> <span class="keep">AI相談ブース出展</span></h3>
+                <div class="service-price">5万円〜</div>
+              </div>
+            </div>
+            <p>商工会、団体、組合、社内勉強会向けに、AI/DXの入口を作ります。</p>
+            <ul>
+              <li>初心者向けのAI活用セミナー、短時間の実演、質疑応答</li>
+              <li>会員事業者向けの個別相談ブース出展</li>
+              <li>相談内容から、研修・顧問・開発のどれが合うか整理</li>
+            </ul>
+          </article>
+          <article class="service-detail" id="service-grant">
+            <div class="service-detail-head">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v5h4"/><path d="M4 7v14h3"/><path d="M10 13h6"/><path d="M10 17h4"/></svg>
+              </div>
+              <div>
+                <h3><span class="keep">導入計画・</span> <span class="keep">補助金活用サポート</span></h3>
+                <div class="service-price">各プラン内で整理</div>
+              </div>
+            </div>
+            <p>補助金を前提にするのではなく、研修・伴走・開発の導入計画を作る中で、使える可能性がある制度を一緒に整理します。</p>
+            <ul>
+              <li>研修、外部人材、IT導入など、支援内容と相性の良い制度候補を確認</li>
+              <li>社労士・支援機関に確認すべき論点をまとめる</li>
+              <li>採択保証や申請代行ではなく、導入計画づくりの補助として対応</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="contact">
+          <div>
+            <h2><span class="keep">お気軽にLINEからも</span> <span class="keep">ご相談可能です。</span></h2>
+            <p>診断結果を見ながら、研修・顧問・相談会のどこから始めるべきか一緒に整理します。</p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-brand">
+              <img src="/gel-banana-web-preview/subsidy-simulator/assets/gb-logo.png" alt="">
+              <span>合同会社 Gel-banana</span>
+            </div>
+            <div class="contact-links">
+              <div class="contact-row">
+                <span class="contact-label">所在地</span>
+                <span class="contact-value">京都府福知山市下新10</span>
+              </div>
+              <div class="contact-row">
+                <span class="contact-label">メール</span>
+                <a class="contact-value" href="mailto:info@gel-banana.jp">info@gel-banana.jp</a>
+              </div>
+              <div class="contact-row">
+                <span class="contact-label">電話</span>
+                <a class="contact-value" href="tel:090-5157-0165">090-5157-0165</a>
+              </div>
+              <div class="contact-row">
+                <span class="contact-label">Web</span>
+                <a class="contact-value" href="https://hat55go.github.io/gel-banana-web-preview">gel-banana.jp</a>
+              </div>
+            </div>
+            <a class="line-button" href="https://lin.ee/xHy6wmt">LINE公式で相談する</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      補助金情報は2026年5月時点の整理です。正式な提案前には各制度の公募要領を確認します。
+    </div>
+  </footer>
+
+  <script>
+    const state = {
+      goal: "minutes",
+      industry: "food",
+      scope: "team",
+      people: 8,
+      kyoto: true,
+      fukuchiyama: false,
+      employees: true,
+      wage: false,
+      ec: false,
+      fast: false
+    };
+    let simulatedEstimate = null;
+    let hasSimulated = false;
+    let isDirty = true;
+    let consultSubject = "DX導入費用シミュレーターの相談";
+    let consultBody = "";
+    const storageKey = "gelBananaDxSimulatorState";
+
+    const goals = {
+      minutes: {
+        label: "AIで何ができるか知りたい",
+        hint: "まずは社員・管理職向けの研修から",
+        service: "training",
+        example: "実務に合わせたAI研修で、社内の共通言語を作ります"
+      },
+      inquiry: {
+        label: "役員・管理職で判断軸を作りたい",
+        hint: "投資判断、社内ルール、リスク整理",
+        service: "executive",
+        example: "経営層向けに、AI活用の判断材料と進め方を整理します"
+      },
+      order: {
+        label: "社内でDXを進める人がいない",
+        hint: "月次伴走、業務整理、担当者育成",
+        service: "advisor",
+        example: "月1〜2回の伴走で優先順位を整理します"
+      },
+      learning: {
+        label: "会員・職員向けに相談会をしたい",
+        hint: "商工会、団体、組合、勉強会",
+        service: "seminar",
+        example: "相談ブースや勉強会で、AI活用の入口を作ります"
+      },
+      dxlead: {
+        label: "使える助成金から逆算したい",
+        hint: "研修費、外部人材、導入計画",
+        service: "grantplan",
+        example: "制度に合わせて、無理のない導入計画を作ります"
+      },
+      event: {
+        label: "自社専用のシステムを作りたい",
+        hint: "受託開発、独自SaaS、業務システム",
+        service: "custom",
+        example: "これは伴走支援ではなく、独自SaaS/受託開発の相談が合いそうです"
+      }
+    };
+
+    const industries = {
+      food: { label: "食品・農業・地場産品", hint: "EC、受注、在庫、SNSと相性が良い", ecBoost: true },
+      manufacturing: { label: "製造業・加工業", hint: "工程、帳票、在庫、品質記録" },
+      construction: { label: "建設・工務店", hint: "見積、施工管理、顧客管理" },
+      tourism: { label: "観光・宿泊・飲食", hint: "予約、問い合わせ、多言語、SNS", ecBoost: true },
+      retail: { label: "小売・サービス", hint: "問い合わせ、販促、顧客管理", ecBoost: true },
+      org: { label: "団体・教育・自治体", hint: "研修、相談記録、業務効率化", org: true }
+    };
+
+    const scopes = {
+      trial: { label: "まず1業務だけ試す", multiplier: 0.75, people: 3 },
+      team: { label: "1チーム・1部署で使う", multiplier: 1, people: 8 },
+      office: { label: "1事業所で使う", multiplier: 1.35, people: 20 },
+      company: { label: "会社全体で使う", multiplier: 2.15, people: 50 }
+    };
+
+    const services = {
+      training: {
+        name: "AI/DX研修",
+        base: 250000,
+        min: 250000,
+        desc: "社員向け・管理職向けを、目的に合わせて組み合わせた研修を行います。",
+        monthly: null
+      },
+      advisor: {
+        name: "DX顧問・個別伴走",
+        base: 150000,
+        min: 150000,
+        billingPrefix: "月額 ",
+        desc: "月次ミーティングとチャット相談で、現場定着まで伴走します。",
+        monthly: null
+      },
+      seminar: {
+        name: "登壇・AI相談ブース出展",
+        base: 50000,
+        min: 50000,
+        desc: "会員向けセミナーや相談ブースで、AI活用の入口を作ります。",
+        monthly: null
+      },
+      executive: {
+        name: "AI/DX研修（管理職向け）",
+        base: 180000,
+        min: 180000,
+        desc: "経営層・管理職向けに、AI投資判断、リスク、社内ルールを整理します。",
+        monthly: null
+      },
+      grantplan: {
+        name: "導入計画・補助金活用サポート",
+        base: 100000,
+        min: 100000,
+        desc: "使える制度と導入順序を整理し、研修・顧問に落とし込みます。",
+        monthly: null
+      },
+      custom: {
+        name: "独自SaaS/受託開発の相談",
+        base: 0,
+        min: 0,
+        max: 0,
+        desc: "業務システムの開発が必要な場合は、受託開発向けの診断が合います。",
+        monthly: null
+      }
+    };
+
+    const grantDefs = {
+      hrReskilling: {
+        name: "人材開発支援助成金",
+        rate: 0.75,
+        cap: 100000000,
+        capLabel: "コース・人数で変動",
+        expense: "対象経費: 研修費・賃金助成等 / 訓練時間・計画届・対象者要件あり",
+        note: "研修費に使いやすい助成金。訓練開始前の計画届が必要です。",
+        url: "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
+      },
+      hrInvestment: {
+        name: "人材開発支援助成金 人への投資促進",
+        rate: 0.6,
+        cap: 25000000,
+        capLabel: "年2,500万円目安",
+        expense: "対象経費: 高度デジタル教育・人材育成 / コース別要件あり",
+        note: "専門性の高いAI・DX研修で候補。助成率はコースと企業規模で変動します。",
+        url: "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
+      },
+      businessImprovement: {
+        name: "業務改善助成金",
+        rate: 0.75,
+        cap: 6000000,
+        capLabel: "最大600万円",
+        expense: "対象経費: 最低賃金引上げ + 生産性向上に資する設備投資等",
+        note: "賃上げと業務改善をセットで進める場合の候補。申請代行は社労士連携が必要です。",
+        url: "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html"
+      },
+      careerUp: {
+        name: "キャリアアップ助成金",
+        rate: 0,
+        cap: 0,
+        capLabel: "定額助成",
+        expense: "対象経費: 非正規雇用の正社員化・賃金規定改定等",
+        note: "DX費用そのものではなく、人材定着・賃上げ施策の周辺候補。社労士領域です。",
+        url: "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/part_haken/jigyounushi/career.html"
+      },
+      pro: {
+        name: "京都府副業・兼業プロ人材補助金",
+        rate: 0.5,
+        cap: 500000,
+        capLabel: "最大50万円目安",
+        expense: "対象経費: 外部DX人材活用費 / 制度上限: 30万〜50万円目安",
+        note: "京都府内企業が外部DX人材を活用する費用に。顧問・伴走・開発前整理と相性が良い制度です。",
+        url: "https://www.ki21.jp/subsidy/hojyokin_r8_shinfukugyouhojyokin/"
+      },
+      jizokuka: {
+        name: "小規模事業者持続化補助金",
+        rate: 2 / 3,
+        cap: 500000,
+        capLabel: "通常50万円",
+        expense: "対象経費: 販路開拓に伴うWeb・EC・業務効率化等",
+        note: "小規模事業者向け。Web関連費は単独申請不可のため、販路開拓施策とセットで検討します。",
+        url: "https://www.jizokukanb.com/"
+      },
+      jizokukaWage: {
+        name: "小規模事業者持続化補助金 賃金引上枠",
+        rate: 0.75,
+        cap: 2500000,
+        capLabel: "最大250万円",
+        expense: "対象経費: 販路開拓 + 賃金引上げを伴う取組",
+        note: "賃上げに前向きな小規模事業者の候補。商工会・商工会議所との確認が重要です。",
+        url: "https://www.jizokukanb.com/"
+      },
+      itNormal: {
+        name: "IT導入補助金 通常枠",
+        rate: 0.5,
+        cap: 4500000,
+        capLabel: "最大450万円",
+        expense: "対象経費: 登録ITツール導入費・導入後活用支援等",
+        note: "業務効率化ツールやSaaS導入で候補。登録ITツール・支援事業者要件の確認が必要です。",
+        url: "https://it-shien.smrj.go.jp/"
+      },
+      itInvoice: {
+        name: "IT導入補助金 インボイス枠",
+        rate: 2 / 3,
+        cap: 3500000,
+        capLabel: "最大350万円",
+        expense: "対象経費: 会計・受発注・決済などインボイス対応ITツール",
+        note: "請求・会計・受発注のデジタル化を伴う場合に候補。対象機能の確認が必要です。",
+        url: "https://it-shien.smrj.go.jp/"
+      },
+      fukuchiyamaEc: {
+        name: "福知山市自社ECサイト構築支援事業補助金",
+        rate: 0.5,
+        cap: 150000,
+        capLabel: "15万円目安",
+        expense: "対象経費: 自社ECサイト構築・運用にかかる経費",
+        note: "福知山市内の小規模事業者向け候補。年度継続と公募状況は市へ確認します。",
+        url: "https://www.city.fukuchiyama.lg.jp/soshiki/78/47617.html"
+      },
+      kyotoAdvanced: {
+        name: "京都府 先端設備等導入補助金",
+        rate: 0.5,
+        cap: 1000000,
+        capLabel: "最大100万円",
+        expense: "対象経費: 生産性向上のための先端設備・システム等",
+        note: "京都府内企業の現場DX・設備連携で候補。対象経費は公募要領で確認します。",
+        url: "https://www.ki21.jp/informations/?genre=5"
+      },
+      kyotoProductivity: {
+        name: "京都府生産性向上・人手不足対策事業費補助金",
+        rate: 0,
+        cap: 0,
+        capLabel: "要確認",
+        expense: "対象経費: グループでの生産性向上・改善活動・専門家活用等",
+        note: "複数社グループや商工会経由の改善支援で候補。金額は公募要領確認が必要です。",
+        url: "https://www.ki21.jp/subsidy/kobo-r8-koujou/"
+      },
+      kyotoFoundation: {
+        name: "京都府中小企業経営基盤強化推進事業費補助金",
+        rate: 0,
+        cap: 0,
+        capLabel: "要照会",
+        expense: "対象経費: 経営基盤強化・経営改善・システム導入等",
+        note: "京都府内企業の経営改善で候補。年度内公募・対象経費は京都産業21等へ確認します。",
+        url: "https://www.ki21.jp/informations/?genre=5"
+      },
+      none: {
+        name: "補助金なしで早く始める",
+        rate: 0,
+        cap: 0,
+        capLabel: "",
+        expense: "対象経費: なし / 補助金を待たずに開始",
+        note: "補助金を待たず、無料検証や小さな業務整理から始める選択肢です。",
+        url: ""
+      }
+    };
+
+    function yen(value) {
+      if (value >= 10000) return `${Math.round(value / 10000).toLocaleString()}万円`;
+      return `${Math.round(value).toLocaleString()}円`;
+    }
+
+    function priceText(estimate) {
+      if (estimate.serviceKey === "custom") return "個別見積";
+      return `${estimate.service.billingPrefix || ""}${yen(estimate.price)}〜${estimate.monthlyText}`;
+    }
+
+    function clamp(value, min, max) {
+      return Math.max(min, Math.min(max, value));
+    }
+
+    function recommendedService() {
+      let service = goals[state.goal].service;
+      if (state.fast && service === "advisor") service = "seminar";
+      if (state.industry === "org" && state.goal === "event") service = "seminar";
+      return service;
+    }
+
+    function supportMultiplier(people) {
+      const units = Math.max(1, Math.ceil(people / 5));
+      if (units === 1) return { multiplier: 1, supporters: 0, individual: false };
+      if (units === 2) return { multiplier: 1.85, supporters: 1, individual: false };
+      if (units === 3) return { multiplier: 2.6, supporters: 2, individual: false };
+      if (units === 4) return { multiplier: 3.25, supporters: 3, individual: false };
+      if (units === 5) return { multiplier: 3.85, supporters: 4, individual: false };
+      return { multiplier: 3.85 + (units - 5) * .55, supporters: units - 1, individual: true };
+    }
+
+    function estimatePrice(serviceKey) {
+      const service = services[serviceKey];
+      const scope = scopes[state.scope];
+      const people = Math.max(1, Number(state.people) || scope.people);
+      let multiplier = scope.multiplier;
+      let basis = `導入範囲: ${scope.label}`;
+      let individual = false;
+
+      if (serviceKey === "training") {
+        const support = supportMultiplier(people);
+        multiplier = support.multiplier;
+        individual = support.individual;
+        basis = `5名ごとにサポート体制を追加（サポート目安 ${support.supporters}名）`;
+      }
+      if (serviceKey === "advisor") {
+        multiplier = people <= 10 ? 1 : people <= 30 ? 1.35 : 1.8;
+        basis = "月次伴走の対象範囲・相談量で加算";
+      }
+      if (serviceKey === "seminar") {
+        multiplier = state.scope === "company" ? 2.4 : state.scope === "office" ? 1.6 : state.scope === "trial" ? 1 : 1.25;
+        basis = "登壇時間・相談ブース時間・対象人数で加算";
+      }
+      if (serviceKey === "executive") {
+        const support = supportMultiplier(people);
+        multiplier = Math.max(1, support.multiplier * .82);
+        individual = support.individual;
+        basis = `管理職向けワークの参加人数に応じて加算（サポート目安 ${support.supporters}名）`;
+      }
+      if (serviceKey === "grantplan") {
+        multiplier = state.scope === "trial" ? 1 : state.scope === "company" ? 2.4 : state.scope === "office" ? 1.6 : 1.25;
+        basis = "導入計画の範囲・制度確認の量で加算";
+      }
+      if (serviceKey === "custom") {
+        return { price: 0, basis: "受託開発LPで個別診断", individual: true };
+      }
+
+      const price = Math.round(Math.max(service.min, service.base * multiplier) / 10000) * 10000;
+      return { price, basis, individual };
+    }
+
+    function eligibleGrants(serviceKey, price) {
+      const grants = [];
+      const trainingLike = serviceKey === "training" || serviceKey === "executive";
+      const advisoryLike = serviceKey === "advisor" || serviceKey === "grantplan";
+      const smallScope = state.scope === "trial" || state.scope === "team";
+      const ecFriendly = state.ec || industries[state.industry]?.ecBoost;
+
+      if (trainingLike && state.employees) {
+        grants.push(grantDefs.hrReskilling, grantDefs.hrInvestment);
+      }
+      if (state.wage && state.employees) {
+        grants.push(grantDefs.businessImprovement, grantDefs.careerUp);
+      }
+      if (advisoryLike && state.kyoto) {
+        grants.push(grantDefs.pro, grantDefs.kyotoFoundation);
+      }
+      if ((serviceKey === "seminar" || trainingLike) && state.kyoto && state.industry === "org") {
+        grants.push(grantDefs.kyotoProductivity);
+      }
+      if (ecFriendly && smallScope) {
+        grants.push(grantDefs.jizokuka);
+      }
+      if (ecFriendly && state.wage && smallScope) {
+        grants.push(grantDefs.jizokukaWage);
+      }
+      if (state.fukuchiyama && ecFriendly) {
+        grants.push(grantDefs.fukuchiyamaEc);
+      }
+      if (state.kyoto && (serviceKey === "grantplan" || serviceKey === "advisor" || state.industry === "manufacturing")) {
+        grants.push(grantDefs.kyotoAdvanced);
+      }
+      if (serviceKey === "grantplan") {
+        grants.push(grantDefs.itNormal);
+        if (ecFriendly) grants.push(grantDefs.itInvoice);
+      }
+
+      if (serviceKey === "seminar" && grants.length === 0) grants.push(grantDefs.none);
+      if (serviceKey === "custom") grants.push(grantDefs.none);
+      if (state.fast) grants.unshift(grantDefs.none);
+      if (grants.length === 0) grants.push(grantDefs.none);
+
+      const unique = [];
+      const seen = new Set();
+      grants.forEach(g => {
+        if (!seen.has(g.name)) {
+          seen.add(g.name);
+          unique.push(g);
+        }
+      });
+
+      return unique.map(g => {
+        const amount = g.rate > 0 ? Math.min(price * g.rate, g.cap) : 0;
+        const net = price - amount;
+        const status = g.rate > 0 ? "概算" : "要確認";
+        return { ...g, amount, net, status };
+      }).sort((a, b) => {
+        if (a.name === grantDefs.none.name) return state.fast ? -1 : 1;
+        if (b.name === grantDefs.none.name) return state.fast ? 1 : -1;
+        if (b.amount !== a.amount) return b.amount - a.amount;
+        return a.net - b.net;
+      });
+    }
+
+    function currentEstimate() {
+      const serviceKey = recommendedService();
+      const priced = estimatePrice(serviceKey);
+      const price = priced.price;
+      const grants = eligibleGrants(serviceKey, price);
+      const best = grants[0];
+      const monthly = services[serviceKey].monthly;
+      let monthlyText = "";
+      if (monthly) {
+        const people = Number(state.people) || scopes[state.scope].people;
+        const m = people <= 5 ? monthly.min : people <= 20 ? monthly.base : monthly.max;
+        monthlyText = ` / 月額 ${yen(m)}〜`;
+      }
+      return { serviceKey, service: services[serviceKey], price, pricingBasis: priced.basis, individual: priced.individual, grants, best, monthlyText, goalExample: goals[state.goal].example };
+    }
+
+    function renderOptions() {
+      const goalEl = document.getElementById("goalOptions");
+      goalEl.innerHTML = Object.entries(goals).map(([key, g]) => `
+        <button class="option" type="button" data-kind="goal" data-value="${key}" aria-pressed="${state.goal === key}">
+          <b>${g.label}</b><span>${g.hint}</span>
+        </button>
+      `).join("");
+
+      const industryEl = document.getElementById("industryOptions");
+      industryEl.innerHTML = Object.entries(industries).map(([key, ind]) => `
+        <button class="option" type="button" data-kind="industry" data-value="${key}" aria-pressed="${state.industry === key}">
+          <b>${ind.label}</b><span>${ind.hint}</span>
+        </button>
+      `).join("");
+
+      document.querySelectorAll("[data-kind]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          state[btn.dataset.kind] = btn.dataset.value;
+          if (btn.dataset.kind === "industry" && industries[state.industry].ecBoost) {
+            state.ec = true;
+            document.getElementById("ec").checked = true;
+          }
+          markDirty();
+          renderInputs();
+        });
+      });
+    }
+
+    function renderScope() {
+      const scopeEl = document.getElementById("scope");
+      scopeEl.innerHTML = Object.entries(scopes).map(([key, s]) => `
+        <option value="${key}" ${state.scope === key ? "selected" : ""}>${s.label}</option>
+      `).join("");
+    }
+
+    function markDirty() {
+      isDirty = true;
+      saveState();
+      const note = document.getElementById("dirtyNote");
+      if (note) {
+        note.textContent = hasSimulated
+          ? "条件が変更されています。もう一度シミュレーションすると、金額を更新できます。"
+          : "条件を選んで「この内容でシミュレーション」を押してください。";
+      }
+    }
+
+    function setConsultMail(subject, lines) {
+      consultSubject = subject;
+      consultBody = lines.join("\n");
+      const link = document.getElementById("consultMail");
+      if (!link) return;
+      const _msg = "補助金シミュレーターの診断結果をもとに、DX導入・補助金活用についてご相談したいです。";
+      link.href = `/gel-banana-web-preview/contact/?topic=${encodeURIComponent("DX / AI 活用の相談")}&diag=${encodeURIComponent(consultBody)}&msg=${encodeURIComponent(_msg)}`;
+    }
+
+    function updateConsultMail(estimate) {
+      const selected = [
+        "DX導入費用シミュレーターからの相談です。",
+        "",
+        "【選択内容】",
+        `困りごと: ${goals[state.goal].label}`,
+        `業種: ${industries[state.industry].label}`,
+        `導入規模: ${scopes[state.scope].label}`,
+        `利用予定人数: ${state.people}名`,
+        `京都府内: ${state.kyoto ? "はい" : "いいえ"}`,
+        `福知山市内: ${state.fukuchiyama ? "はい" : "いいえ"}`,
+        `雇用している社員: ${state.employees ? "あり" : "なし"}`,
+        `賃上げ・人材育成: ${state.wage ? "前向き" : "未選択"}`,
+        `EC・販路開拓: ${state.ec ? "検討あり" : "未選択"}`,
+        `開始スピード: ${state.fast ? "補助金より早く始めたい" : "補助金活用も検討"}`
+      ];
+
+      if (!estimate) {
+        setConsultMail("DX導入費用シミュレーターの相談", [
+          ...selected,
+          "",
+          "【診断結果】",
+          "まだシミュレーション前です。"
+        ]);
+        return;
+      }
+
+      if (estimate.serviceKey === "custom") {
+        setConsultMail("独自SaaS/受託開発の相談", [
+          ...selected,
+          "",
+          "【診断結果】",
+          "独自SaaS/受託開発が合いそうです。",
+          "概算: 個別見積",
+          "",
+          "この内容をもとに相談したいです。"
+        ]);
+        return;
+      }
+
+      setConsultMail("DX導入費用シミュレーターの相談", [
+        ...selected,
+        "",
+        "【診断結果】",
+        `提案プラン: ${estimate.service.name}`,
+        `価格目安: ${priceText(estimate)}`,
+        `価格根拠: ${estimate.pricingBasis}`,
+        `想定助成率: ${estimate.best.rate > 0 ? Math.round(estimate.best.rate * 100) + "%" : "なし"}`,
+        `想定助成額: ${estimate.best.amount > 0 ? yen(estimate.best.amount) : "0円"}`,
+        `概算の実質負担: ${yen(estimate.best.net)}〜`,
+        `最上位の候補制度: ${estimate.best.name}`,
+        "",
+        "【補助金候補】",
+        ...estimate.grants.slice(0, 5).map(g => `- ${g.name}: ${g.expense} / ${g.status || "概算"} / 補助額 ${g.amount > 0 ? yen(g.amount) : "要確認"} / 参考負担 ${g.amount > 0 ? yen(g.net) + "〜" : "要確認"}`),
+        "",
+        "※金額は下限目安です。人数・回数・支援範囲により個別見積となります。",
+        "",
+        "この内容をもとに相談したいです。"
+      ]);
+    }
+
+    function simulate() {
+      simulatedEstimate = currentEstimate();
+      hasSimulated = true;
+      isDirty = false;
+      document.getElementById("dirtyNote").textContent = "この条件で試算しました。条件を変えた場合は、もう一度ボタンを押してください。";
+      renderResult();
+      saveState();
+      moveToResult();
+    }
+
+    function moveToResult() {
+      const result = document.getElementById("estimateResult");
+      if (!result) return;
+      const offset = window.matchMedia("(max-width: 860px)").matches ? 82 : 24;
+      const top = result.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+      result.classList.remove("is-updated");
+      void result.offsetWidth;
+      result.classList.add("is-updated");
+      window.setTimeout(() => result.classList.remove("is-updated"), 820);
+    }
+
+    function renderResult() {
+      const estimate = simulatedEstimate;
+      updateConsultMail(estimate);
+      if (!estimate) {
+        document.getElementById("planName").textContent = "まだ試算していません";
+        document.getElementById("planDesc").textContent = "条件を選んで「この内容でシミュレーション」を押すと、概算結果が表示されます。";
+        document.getElementById("listPrice").textContent = "--";
+        document.getElementById("grantRate").textContent = "--";
+        document.getElementById("grantAmount").textContent = "--";
+        document.getElementById("netPrice").textContent = "--";
+        document.getElementById("grantList").innerHTML = `
+          <div class="grant">
+            <div class="grant-head">
+              <b>試算待ち</b>
+              <span class="pill">未計算</span>
+            </div>
+            <p>左側で条件を選び、「この内容でシミュレーション」を押してください。</p>
+          </div>
+        `;
+        return;
+      }
+      if (estimate.serviceKey === "custom") {
+        document.getElementById("planName").textContent = "独自SaaS/受託開発が合いそうです";
+        document.getElementById("planDesc").textContent = "業務フローをヒアリングして、御社専用のシステムやSaaSを設計・開発する領域です。伴走型支援ではなく、受託開発向けの診断に進んでください。";
+        document.getElementById("listPrice").textContent = "個別見積";
+        document.getElementById("netPrice").textContent = "要ヒアリング";
+        document.getElementById("grantRate").textContent = "制度確認";
+        document.getElementById("grantAmount").textContent = "要確認";
+        document.getElementById("grantList").innerHTML = `
+          <div class="grant">
+            <div class="grant-head">
+              <div>
+                <span class="grant-label">別診断へ</span>
+                <b>受託開発・独自SaaSの概算診断</b>
+              </div>
+              <span class="pill">開発向け</span>
+            </div>
+            <p>録音から相談カルテ化、受注管理、在庫・帳票連携など、専用システムの開発はこちらで整理します。</p>
+            <a class="grant-link" href="/gel-banana-web-preview/saas-development">独自SaaS開発の診断を見る</a>
+          </div>
+        `;
+        return;
+      }
+      document.getElementById("planName").textContent = estimate.service.name;
+      document.getElementById("planDesc").textContent = `${estimate.service.desc} ${estimate.goalExample}`;
+      document.getElementById("listPrice").textContent = priceText(estimate);
+      document.getElementById("netPrice").textContent = yen(estimate.best.net) + "〜";
+      document.getElementById("grantRate").textContent = estimate.best.rate > 0 ? `${Math.round(estimate.best.rate * 100)}%` : "なし";
+      document.getElementById("grantAmount").textContent = estimate.best.amount > 0 ? `-${yen(estimate.best.amount)}` : "0円";
+
+      const basis = `
+        <div class="grant">
+          <div class="grant-head">
+            <div>
+              <span class="grant-label">価格の考え方</span>
+              <b>${estimate.individual ? "大人数・広範囲は個別見積" : "下限価格に支援体制を加算"}</b>
+            </div>
+            <span class="pill">目安</span>
+          </div>
+          <p>${estimate.pricingBasis}</p>
+          <p>表示金額は「最低限このくらいから」の目安です。研修人数、実施回数、サポート人数、伴走範囲で変動します。</p>
+        </div>
+      `;
+
+      document.getElementById("grantList").innerHTML = basis + estimate.grants.slice(0, 5).map((g, i) => `
+        <div class="grant">
+          <div class="grant-head">
+            <div>
+              <span class="grant-label">${i === 0 ? "最上位の候補制度" : "ほかの候補"}</span>
+              <b>${g.name}</b>
+            </div>
+            <span class="pill">${g.rate > 0 ? Math.round(g.rate * 100) + "% / " + (g.capLabel || yen(g.cap) + "上限") : (g.capLabel || "要確認")}</span>
+          </div>
+          <p>${g.expense}</p>
+          <p>${g.status || "概算"}補助額: ${g.amount > 0 ? yen(g.amount) : "要確認"} / 参考負担: ${g.amount > 0 ? yen(g.net) + "〜" : "要確認"}</p>
+          <p>${g.note}</p>
+          ${g.url ? `<a class="grant-link" href="${g.url}">公式ページを見る</a>` : ""}
+        </div>
+      `).join("");
+    }
+
+    function renderInputs() {
+      renderOptions();
+      renderScope();
+      syncControls();
+    }
+
+    function syncControls() {
+      document.getElementById("scope").value = state.scope;
+      document.getElementById("people").value = state.people;
+      ["kyoto", "fukuchiyama", "employees", "wage", "ec", "fast"].forEach(id => {
+        document.getElementById(id).checked = Boolean(state[id]);
+      });
+    }
+
+    function render() {
+      renderInputs();
+      renderResult();
+    }
+
+    function saveState() {
+      try {
+        localStorage.setItem(storageKey, JSON.stringify({
+          state,
+          hasSimulated,
+          isDirty
+        }));
+      } catch (error) {
+        // Some browser privacy modes block localStorage. The simulator still works without persistence.
+      }
+    }
+
+    function loadState() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if (!saved || !saved.state) return;
+        Object.keys(state).forEach(key => {
+          if (Object.prototype.hasOwnProperty.call(saved.state, key)) {
+            state[key] = saved.state[key];
+          }
+        });
+        hasSimulated = Boolean(saved.hasSimulated);
+        isDirty = saved.isDirty !== undefined ? Boolean(saved.isDirty) : !hasSimulated;
+        if (hasSimulated) {
+          simulatedEstimate = currentEstimate();
+        }
+      } catch (error) {
+        // Ignore corrupt saved state and use defaults.
+      }
+    }
+
+    document.getElementById("scope").addEventListener("change", e => {
+      state.scope = e.target.value;
+      state.people = scopes[state.scope].people;
+      document.getElementById("people").value = state.people;
+      markDirty();
+      renderInputs();
+    });
+    document.getElementById("people").addEventListener("input", e => {
+      state.people = Number(e.target.value || 1);
+      markDirty();
+    });
+    ["kyoto", "fukuchiyama", "employees", "wage", "ec", "fast"].forEach(id => {
+      document.getElementById(id).addEventListener("change", e => {
+        state[id] = e.target.checked;
+        if (id === "fukuchiyama" && e.target.checked) {
+          state.kyoto = true;
+          document.getElementById("kyoto").checked = true;
+        }
+        markDirty();
+      });
+    });
+    document.getElementById("simulateButton").addEventListener("click", simulate);
+    document.getElementById("consultMail").addEventListener("click", async () => {
+      try {
+        await navigator.clipboard?.writeText(consultBody);
+        const note = document.getElementById("copyNote");
+        note?.classList.add("show");
+        window.setTimeout(() => note?.classList.remove("show"), 3500);
+      } catch (error) {
+        // Clipboard may be blocked on file://. Mailto still carries the content.
+      }
+    });
+
+    loadState();
+    render();
+  </script>
+</body>
+</html>
